@@ -33,7 +33,7 @@ services:
       - 8182:8080
       
 /* Only a Basic file to run SQL in Docker with cmd command
-docker compose -f mysql.yml up
+docker compose -f mysql.yml up -d
 After it you can open PHPmyAdmin or Adminer in your browser with localhost:8183 or localhost:8182 and edit the Data Bank freely.
 If you prefer use SQL in console or cmd, only type the command
 docker exec -it nome_do_docker bash
