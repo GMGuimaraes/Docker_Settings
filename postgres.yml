@@ -18,3 +18,5 @@ services:
       - "8090:80"
     depends_on:
       - postgresql
+      
+      # docker-compose.exe -f .\postgres.yml up -d
