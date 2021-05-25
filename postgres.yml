@@ -20,3 +20,4 @@ services:
       - postgresql
       
       # docker-compose.exe -f .\postgres.yml up -d
+      # sudo docker exec -it meucontainar pg_dump -p minhasenha -U postgres -d teste >dump.sql
